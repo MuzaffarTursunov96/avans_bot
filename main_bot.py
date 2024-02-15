@@ -32,7 +32,7 @@ bot = Bot(token=API_TOKEN, loop=loop)
 webhook_path = f'/{API_TOKEN}'
 
 base_url ='https://oylikavans.uz'
-local_url ='http://127.0.0.1:8000'
+local_url ='http://3.94.55.132:80'
 
 
 websocket_connection = None
