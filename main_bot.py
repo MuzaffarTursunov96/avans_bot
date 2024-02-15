@@ -19,7 +19,7 @@ import requests as rq
 
 from aiohttp import web
 
-API_TOKEN = '6073701826:AAHGfOGuFmVai5UzUZuub2yNwVYx4_hyzi8'
+API_TOKEN = '6919619298:AAEBgUhfQtz_aCS7Ao4HlpN-UnoOd67xm1w'
 
 loop = asyncio.get_event_loop()
 
