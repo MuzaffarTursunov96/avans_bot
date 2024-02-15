@@ -146,8 +146,8 @@ class GetPathExcel(APIView):
         minut =now.strftime("%Y-%B-%d %H_%M_%S")
         
         create_folder(f'{MEDIA_ROOT}',f'uploads')
-        create_folder(f'{MEDIA_ROOT}\\uploads',minut)
-        path =f'{MEDIA_ROOT}\\uploads\\{minut}\\SAP AVANS.xlsx'
+        create_folder(f'{MEDIA_ROOT}/uploads',minut)
+        path =f'{MEDIA_ROOT}/uploads/{minut}/SAP AVANS.xlsx'
         
 
         result['Аванс суммаси'] = result['Аванс суммаси'].astype(float).apply(format_with_thousands_separator)
