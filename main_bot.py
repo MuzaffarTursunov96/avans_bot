@@ -19,7 +19,7 @@ import requests as rq
 
 from aiohttp import web
 
-API_TOKEN = '6919619298:AAEBgUhfQtz_aCS7Ao4HlpN-UnoOd67xm1w'
+API_TOKEN = ''
 
 loop = asyncio.get_event_loop()
 
@@ -32,7 +32,7 @@ bot = Bot(token=API_TOKEN, loop=loop)
 webhook_path = f'/{API_TOKEN}'
 
 base_url ='https://oylikavans.uz'
-local_url ='http://3.94.55.132:80'
+local_url =''
 
 
 websocket_connection = None
